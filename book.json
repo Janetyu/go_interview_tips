@@ -5,85 +5,68 @@
   "description": "go面试锦囊--涵盖各个方面",
   "language": "zh-hans",
   "gitbook": "3.2.3",
-  // "styles": {
-  //     "website": "./styles/website.css"
-  // },
   "structure": {
-      "readme": "README.md"
+    "readme": "README.md"
   },
-  // "links": {
-  //     "sidebar": {
-  //         "我的狗窝": "https://blankj.com"
-  //     }
-  // },
   "plugins": [
-      "-sharing",
-      "splitter",
-      "expandable-chapters-small",
-      "anchors",
+    "-sharing",
+    "splitter",
+    "expandable-chapters-small",
+    "anchors",
 
-      "github",
-      "github-buttons",
-      "donate",
-      "sharing-plus",
-      "anchor-navigation-ex",
-      "favicon"
+    "github",
+    "github-buttons",
+    "donate",
+    "sharing-plus",
+    "anchor-navigation-ex",
+    "favicon"
   ],
   "pluginsConfig": {
-      "github": {
-          "url": "https://github.com/janetyu"
-      },
-      "github-buttons": {
-          "buttons": [{
-              "user": "janetyu",
-              "repo": "go_interview_tips",
-              "type": "star",
-              "size": "small",
-              "count": true
-              }
-          ]
-      },
-      // "donate": {
-      //     "alipay": "./source/images/donate.png",
-      //     "title": "",
-      //     "button": "赞赏",
-      //     "alipayText": " "
-      // },
-      "sharing": {
-          "douban": false,
-          "facebook": false,
-          "google": false,
-          "hatenaBookmark": false,
-          "instapaper": false,
-          "line": false,
-          "linkedin": false,
-          "messenger": false,
-          "pocket": false,
-          "qq": false,
-          "qzone": false,
-          "stumbleupon": false,
-          "twitter": false,
-          "viber": false,
-          "vk": false,
-          "weibo": false,
-          "whatsapp": false,
-          "all": [
-              "google", "facebook", "weibo", "twitter",
-              "qq", "qzone", "linkedin", "pocket"
-          ]
-      },
-      "anchor-navigation-ex": {
-          "showLevel": false
-      }
-      // "favicon":{
-      //     "shortcut": "./source/images/favicon.jpg",
-      //     "bookmark": "./source/images/favicon.jpg",
-      //     "appleTouch": "./source/images/apple-touch-icon.jpg",
-      //     "appleTouchMore": {
-      //         "120x120": "./source/images/apple-touch-icon.jpg",
-      //         "180x180": "./source/images/apple-touch-icon.jpg"
-      //     }
-      // }
+    "github": {
+        "url": "https://github.com/janetyu"
+    },
+    "donate": {
+      "alipay": "./source/images/donate.png",
+      "title": "",
+      "button": "赞赏",
+      "alipayText": " "
+    },
+    "github-buttons": {
+        "buttons": [{
+            "user": "janetyu",
+            "repo": "go_interview_tips",
+            "type": "star",
+            "size": "small",
+            "count": true
+            }
+        ]
+    },
+    "sharing": {
+        "douban": false,
+        "facebook": false,
+        "google": false,
+        "hatenaBookmark": false,
+        "instapaper": false,
+        "line": false,
+        "linkedin": false,
+        "messenger": false,
+        "pocket": false,
+        "qq": false,
+        "qzone": false,
+        "stumbleupon": false,
+        "twitter": false,
+        "viber": false,
+        "vk": false,
+        "weibo": false,
+        "whatsapp": false,
+        "all": [
+            "google", "facebook", "weibo", "twitter",
+            "qq", "qzone", "linkedin", "pocket"
+        ]
+    },
+    "anchor-navigation-ex": {
+        "showLevel": false
+    }
   }
 
 }
